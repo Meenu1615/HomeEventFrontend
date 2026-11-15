@@ -69,7 +69,7 @@ export default function Citizen() {
       }));
 
       const extracted = Object.entries(fields)
-        .filter(([key, value]) => value)
+        .filter(([value]) => value)
         .map(([key]) => key);
 
       setStatus(
